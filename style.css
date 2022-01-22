@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:#eee;
+  font-family: 'Roboto Condensed', sans-serif;
+
+
+
+}
+.container{
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color:rgba(169, 250, 250, 0.432) ;
+  max-width: 1000px;
+  padding: 20px;
+}
+.profile-pic{
+  height: 100px;
+  width: 120px;
+  border: thistle solid 3px;
+  border-radius: 48%;
+  float:left;
+}
+.bio-data{
+ float: left;
+padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+color:teal;
+
+}
+.header-contact{
+ float: right;
+ padding: 38px;
+ 
+
+}
+.header-contact a{
+  text-decoration: none;
+  color:teal;
+  font-weight: bold;
+
+}
+.header-contact a:hover{
+ text-decoration: underline;
+ color:tomato;
+}
+
+.div-clear{
+ clear: both;
+
+}
+hr{
+ border:solid 3px black;
+ width:100%;
+ border-bottom: none;
+ margin: 15px auto;
+}
+
+/*---------------------
+Personal section start
+-----------------------*/
+
+#personal-section{
+
+}
+
+.content{
+margin: 30px; 
+
+}
+.left-div{
+width:30%;
+float:left;
+}
+.right-div{
+ width:70%;
+ float:right;
+}
+.common-hr{
+  border:solid black 1px;
+  border-bottom: none;
+  width:100%;
+  margin:15px auto;
+}
+/*---------------------
+Personal section end
+-----------------------*/
+
+
+
+
+/*---------------------
+Work section start
+-----------------------*/
+
+/*---------------------
+Work section end
+-----------------------*/
+
+
+
+/*---------------------
+Key section start
+-----------------------*/
+li{
+  margin-left: 17px;
+
+}
+
+
+/*---------------------
+Key section end
+-----------------------*/
+
+
+/*---------------------
+Eucation section start
+-----------------------*/
+.left-edu-div{
+float:left;
+width:50%;
+}
+
+.left-edu-div p a{
+ text-decoration: none;
+ color:black;
+
+}
+
+.right-edu-div{
+  float:right;
+  width:50%;
+}
+
+.changes{
+margin-top:17px;
+
+}
+
+/*---------------------
+Education section end
+-----------------------*/
+
+
+
+/*----------------------------
+References section start
+-----------------------------*/
+.left-refer-div{
+float: left;
+width:50%
+}
+.right-refer-div{
+  float: right;
+  width:50%
+
+}
+
+/*------------------------
+References section end
+-------------------------*/
+
+
+/*---------------------
+Footer section start
+-----------------------*/
+.bottom{
+  background-color: black;
+  
+  text-align:center;
+  padding: 8px;
+  
+}
+
+.bottom-container{
+  
+  color:white;
+}
+/*---------------------
+Footer section end
+----------------------*/
